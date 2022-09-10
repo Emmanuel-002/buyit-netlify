@@ -1,0 +1,67 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(71, 6, 132);
+}
+@media all and (max-width:300px){
+    header{
+        flex-flow: column nowrap;
+    }
+}
+.headerLeft{
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: whitesmoke;
+    /* top: 20px; */
+}
+.headerLeft .logo{
+    padding: 3rem;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.headerLeft .logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    animation: spinLogo 4s ease-in-out 0s infinite;
+}
+@keyframes spinLogo {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+}
+
+.headerLeft h2{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 15px;
+}
+.headerRight{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.headerRight button{
+    background-color: inherit;
+    font-size: 0.8rem;
+    color: whitesmoke;
+    border: none;
+    padding: 5px 10px;
+    transition: all 500ms ease-in-out 0s;
+}
+.headerRight button:hover{
+    cursor: pointer;
+    color:rgb(71, 6, 132);
+    background-color: rgb(219, 210, 210);
+    
+}

@@ -1,0 +1,57 @@
+.sectionBox{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 2rem auto;
+    width: 90%;
+    background-color: rgb(135, 135, 189);
+    border-radius: 30px;
+}
+.sectionTitle{
+    color: rgb(71, 6, 132);
+}
+.sectionItem{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.itemBox{
+    width: 250px;
+    margin: 0.5rem 2rem;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    transition: all 500ms ease-in-out 0s;
+    opacity: 0.9;
+}
+.itemBox:hover{
+    transform: scale(1.02);
+    opacity: 1;
+}
+.itemBox img{
+    height: 200px;
+    width: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.description{
+    padding: 20px;   
+}
+.description h2{
+    text-align: center;
+    color:rgb(27, 2, 51);
+}
+.description p{
+    color: rgb(6, 64, 87);
+    text-align: justify;
+}
+.description .add{
+    text-align: center;
+}
+.description .add a{
+    text-decoration: none;
+}
+.description .price{
+    text-align: right;
+    color: crimson;
+    font-weight: bold;
+}
