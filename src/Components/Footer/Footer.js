@@ -1,6 +1,7 @@
 import styles from './Footer.module.css';
 
 const Footer = () =>{
+    const date = new Date()
     return(
         <footer>
             <div className={styles.footer_main}>
@@ -57,7 +58,7 @@ const Footer = () =>{
                 <a href="https://web.whatsapp.com" target="_blank"><img src="images/whatsappIcon.png" /></a>
             </div>
             <div>
-            Created by New Life Global &copy; reserved 2022
+                Company Name &copy; reserved {date.getFullYear()}
             </div>
         </div>
         </footer>
