@@ -2,12 +2,12 @@ import styles from './Product.module.css';
 
 const Products = () => {
     const items = [
-        {id: 1,  category: 'Foodstuff', src: '/images/foodstuffIcon.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Global Investment'},
-        {id: 2,  category: 'Fashion', src: '/images/fashionIcon.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Global Investment'},
-        {id: 3,  category: 'Electronics', src: '/images/electronicsIcon.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Global Investment'},
-        {id: 4,  category: 'Drinks', src: '/images/drinksIcon.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Global Investment'},
-        {id: 5,  category: 'Automechanics', src: '/images/automechanicsIcon.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Global Investment'},
-        {id: 6,  category: 'Skin Care', src: '/images/skincareIcon.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Global Investment'},
+        {id: 1,  category: 'Foodstuff', src: '/images/foodstuff.jpg', description: 'This is the part designated for description of the sales product we offer in Brand Nigeria Ltd'},
+        {id: 2,  category: 'Fashion', src: '/images/fashion.jpg', description: 'This is the part designated for description of the sales product we offer in Brand Nigeria Ltd'},
+        {id: 3,  category: 'Electronics', src: '/images/electronics.jpg', description: 'This is the part designated for description of the sales product we offer in Brand Nigeria Ltd'},
+        {id: 4,  category: 'Drinks', src: '/images/drinks.jpg', description: 'This is the part designated for description of the sales product we offer in Brand Nigeria Ltd'},
+        {id: 5,  category: 'Automechanics', src: '/images/automechanics.jpg', description: 'This is the part designated for description of the sales product we offer in Brand Nigeria Ltd'},
+        {id: 6,  category: 'Skin Care', src: '/images/skincare.jpg', description: 'This is the part designated for description of the sales product we offer in Brand Nigeria Ltd'},
     ];
     
         return(

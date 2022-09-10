@@ -2,12 +2,12 @@ import styles from './Product.module.css';
 
 const NewArrivals = () => {
     const items = [
-    {id: 1,  category: 'Semovita', src: '/images/foodstuffIcon.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Global Investment', price: '$4.99',},
-    {id: 2,  category: 'T-Shirt', src: '/images/fashionIcon.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Global Investment', price: '$19.99',},
-    {id: 3,  category: 'All-in-one', src: '/images/electronicsIcon.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Global Investment', price: '$499.99',},
-    {id: 4,  category: 'Juice', src: '/images/drinksIcon.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Global Investment', price: '$2.99',},
-    {id: 5,  category: 'Helix oil', src: '/images/automechanicsIcon.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Global Investment', price: '$9.99',},
-    {id: 6,  category: 'Nivea', src: '/images/skincareIcon.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Global Investment', price: '$3.99',},
+    {id: 1,  category: 'Golden Penny', src: '/images/goldenpenny.jpg', description: 'This is the part designated for description of the sales product we offer in Brand Nigeria Ltd', price: '$4.99',},
+    {id: 2,  category: 'T-Shirt', src: '/images/t-shirt.jpg', description: 'This is the part designated for description of the sales product we offer in Brand Nigeria Ltd', price: '$19.99',},
+    {id: 3,  category: 'All-in-one', src: '/images/all-in-one.jpg', description: 'This is the part designated for description of the sales product we offer in Brand Nigeria Ltd', price: '$499.99',},
+    {id: 4,  category: 'Predator', src: '/images/predator.jpg', description: 'This is the part designated for description of the sales product we offer in NewLife Brand Nigeria Ltd', price: '$2.99',},
+    {id: 5,  category: 'Total Quartz', src: '/images/total-quartz.jpg', description: 'This is the part designated for description of the sales product we offer in Brand Nigeria Ltd', price: '$9.99',},
+    {id: 6,  category: 'Nivea', src: '/images/nivea.jpg', description: 'This is the part designated for description of the sales product we offer in Brand Nigeria Ltd', price: '$3.99',},
 ];
 
     return(

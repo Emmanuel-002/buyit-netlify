@@ -4,25 +4,23 @@ const Footer = () =>{
     const date = new Date()
     return(
         <footer>
+            <h2>
+                Shop with brand for amazing e-commerce experience
+            </h2>
             <div className={styles.footer_main}>
-                <div className={styles.note}>
-                    <h2>
-                    Same day delivery for orders pleaced between 8:00am and 4:00pm from Monday to Saturday.
-                    </h2>
-                </div>
                 <div className={styles.contacts}>
                     <h3>Contacts</h3>
-                    <p>08060515523</p>
-                    <p>08058983817</p>
-                    <p>07036210111</p>
-                    <p><a href="https://segsey4topplaces@gmail.com" target="_blank">segsey4topplaces@gmail.com</a></p>
-                    <p>Flat 7 Block A SOQ NAF Base Yola</p>
+                    <p>08000000001</p>
+                    <p>08000000002</p>
+                    <p>07000000003</p>
+                    <p><a href="https://brand@gmail.com" target="_blank">brand@gmail.com</a></p>
+                    <p>Flat 10 Block A My location, Nigeria</p>
                 </div>
                 <div className={styles.quicklinks}>
                     <h3>Quick links</h3>
-                    <a href="#">Shop</a><br />
-                    <a href="#">Account</a><br />
-                    <a href="#">Blog</a><br />
+                    <a href="#" target="_blank">Shop</a><br />
+                    <a href="#" target="_blank">Account</a><br />
+                    <a href="#" target="_blank">Blog</a><br />
                 </div>
                 <div className={styles.form}>
                 <h3>Message</h3>
