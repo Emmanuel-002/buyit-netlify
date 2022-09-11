@@ -10,7 +10,7 @@ const SignUp = () =>{
                     <input type='text' id='firstname' required />
                 </div>
                 <div className={styles.signup_input}>
-                    <label htmlFor='lastname'>First Name</label> <br />
+                    <label htmlFor='lastname'>Last Name</label> <br />
                     <input type='text' id='lastname' required />
                 </div>
                 <div className={styles.signup_input}>

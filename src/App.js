@@ -3,7 +3,6 @@ import {useState} from 'react'
 import SignUp from './Components/SignUp/SignUp';
 import Login from './Components/Login/Login';
 import Product from './Components/Product/Product';
-// import Header from './Components/Header/Header';
 import NewArrival from './Components/Product/NewArrivals';
 import Footer from './Components/Footer/Footer';
 
@@ -35,7 +34,7 @@ function App() {
             <div className={styles.headerRight}>
                 <button onClick={loginHandler}>Sign in</button>
                 <button onClick={signUpHandler}>Sign up</button>
-                <button>My cart</button>
+                {/* <button>My cart</button> */}
             </div>
         </header>
         {signUpState ? <SignUp />:""}
