@@ -1,0 +1,55 @@
+.contact_banner{
+    width: 99%;
+    margin: 0.5rem auto;
+}
+article{
+    width: 50%;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+.contact_banner img{
+width: 100%;
+}
+main{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    background-image: linear-gradient(rgb(95, 20, 3),rgba(34, 7, 1, 1.0));
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+form div{
+    margin: 1rem 0;
+}
+.text-field{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+input.text-field{
+    height: 2rem;
+}
+.text-field:focus{
+    outline-color: rgba(223, 6, 6, 0.801);
+}
+input[type="submit"]{
+    background-color: rgba(34, 7, 1, 1.0);
+    border: 1px solid rgba(34, 7, 1, 1.0);
+    border-radius: 5px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    transition: all 500ms ease-in-out;
+}
+input[type="submit"]:hover{
+    background-color: rgba(223, 6, 6, 0.801);
+}
+@media all and (max-width:480px){
+    main,article{
+        width: 98%;
+    }
+}
+@media all and (min-width:481px) and (max-width:768px){
+    main,article{
+        width: 75%;
+    }
+}
