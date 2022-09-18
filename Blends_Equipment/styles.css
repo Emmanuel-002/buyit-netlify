@@ -1,0 +1,154 @@
+article{
+    width: 99%;
+    margin: 2rem auto;
+    background-image: linear-gradient(rgba(34, 7, 1, 1.0), rgb(95, 20, 3));
+    color: white;
+    padding: 1rem 0.5rem;
+    text-align: center;
+}
+.banner.blends{
+    background: url('../Assets/images/classic_banner.jpg');
+}
+.banner.equipment{
+    background: url('../Assets/images/brewing_banner.jpg');
+}
+.banner.unique{
+    background: url('../Assets/images/unique_banner.jpg');
+}
+.banner.classic{
+    background: url('../Assets/images/classic_banner.JPG');
+}
+.banner.blends{
+    width: 99%;
+    margin: 1rem auto;
+    padding: 8rem;
+}
+.banner.equipment,
+.banner.unique,
+.banner.classic,
+.banner.blends{
+    width: 99%;
+    margin: 1rem auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem;
+    background-position: top;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.item-product{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: rgba(34, 7, 1, 1.0);
+}
+.item-product img{
+    width: 100%;
+    height: 350px;
+}
+.item-product h4,.item-product p{
+    padding: 0.2rem 0.5rem;
+}
+.item-product .control-block{
+    text-align: right;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    color: rgba(223, 6, 6, 0.801);
+    font-weight: bold;
+}
+.blend_types{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.blend_types .banner{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* justify-items: stretch; */
+    background-color: whitesmoke;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    margin: 0.5rem;
+}
+ .blend_types .banner .unique_banner,
+.blend_types .banner .classic_banner{
+    margin: 1rem;
+}
+.blend_types .banner a{
+    padding: 2rem;
+    font-size: 5rem;
+    color: rgba(34, 7, 1, 1.0);
+    text-align: center;
+    text-decoration: none;
+}
+.blend_types .banner .blends_description{
+    text-align: center;
+}
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+}
+.item-product{
+    margin: 0.5rem;
+    background-color: white;
+}
+.sm_md-screen{
+    display: none;
+}
+@media all and (max-width:480px){
+    .product
+    {
+        grid-template-columns: 1fr;
+    }
+    .sm_md-screen{
+        display: block;
+    }
+    .banner.equipment,
+.banner.unique,
+.banner.classic,
+.banner.blends,
+.about_banner{
+    padding: 1rem;
+    font-size: 1rem;
+    background-image: linear-gradient(rgba(34, 7, 1, 1.0), rgb(95, 20, 3));
+
+}
+}
+@media all and (min-width:481px) and (max-width:768px){
+    .product{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .sm_md-screen{
+        display: block;
+    }
+    .banner.equipment,
+.banner.unique,
+.banner.classic,
+.banner.blends,
+.about_banner{
+    padding: 1rem;
+    font-size: 1rem;
+    background-image: linear-gradient(rgba(34, 7, 1, 1.0), rgb(95, 20, 3));
+}
+}
+@media all and (min-width:769px) and (max-width:1024px){
+    .sm_md-screen{
+        display: block;
+    }
+    .banner.equipment,
+.banner.unique,
+.banner.classic,
+.banner.blends,
+.about_banner{
+    padding: 1rem;
+    font-size: 1rem;
+    background-image: linear-gradient(rgba(34, 7, 1, 1.0), rgb(95, 20, 3));
+}
+}
